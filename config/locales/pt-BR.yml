@@ -1,0 +1,28 @@
+pt-BR:
+  hello: "Olá mundo"
+  country: "O seu sistema está em Português do Brasil"
+  welcome: "Bem Vindo"
+  home: 'Início'
+  dt: 'Data'
+  language:
+      en: 'Inglês'
+      pt: 'Português'
+  coin: 'Moedas'
+  m_type: 'Tipos de Mineração'
+  identify:
+    i_am: "Eu sou "
+    you: " e você está olhando pra mim"
+    confirm: "Tem certeza?"
+  pages:
+    edit: 
+      coin: "Editando Moeda"
+      miningt: "Editando Tipo de Mineração"
+  links:
+    edit: "Editar"
+    back: "Voltar"
+    show: "Mostrar"
+    new:
+      coin: "Nova Moeda"
+      miningt: "Novo Tipo de Mineração"
+    destroy: "Apagar"
+    

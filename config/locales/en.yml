@@ -1,0 +1,28 @@
+en:
+  hello: "Hello world"
+  country: "Your system language is English from the United States of America"
+  welcome: "Well Come"
+  language:
+      en: 'English'
+      pt: 'Portuguese'
+  home: 'Home'
+  dt: 'Date'
+  coin: 'Coins'
+  m_type: 'Mining Types'
+  identify:
+    i_am: "I am "
+    you: " and you are look to me"
+    confirm: "Are you sure?"
+  pages:
+    edit: 
+      coin: "Editing Coin"
+      miningt: "Editing Mining Type"
+  links:
+    edit: "Edit"
+    back: "Back"
+    show: "Show"
+    new:
+      coin: "New Coin"
+      miningt: "New Mining Type"
+    destroy: "Destroy"
+    

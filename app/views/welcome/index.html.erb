@@ -1,0 +1,13 @@
+<div class="jumbotron">
+  <h1 class="display-4"><%= t(:welcome) %></h1>
+  <p class="lead"> <%#= @locale_is esse método não funciona %> <%= t(:country) %></p>
+  <hr class="my-4">
+  <!--<p class="lead"><%# I18n.t(:hello)%></p>-->
+  
+  <p class="lead"><%= t('dt') %>: <%= l(@date_ambience) %></p>
+  
+  <h3><%= link_to t('coin'), coins_path, type:"button", class:"btn btn-dark" %></h3>
+  <h3><%= link_to t('m_type'), mining_types_path, type:"button", class:"btn btn-dark" %></h3>
+  
+  <!--<h3><%# t('identify.i_am') %> <%# @name %> <%# t('identify.you')%></h3>-->
+</div>

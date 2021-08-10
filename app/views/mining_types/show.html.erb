@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= t('activerecord.models.mining_type.one') %></h1>
+
+</br>
+</br>
+
+<p>
+  <strong><%= t('activerecord.attributes.mining_type.description') %>:</strong>
+  <%= @mining_type.description %>
+</p>
+
+<p>
+  <strong><%= t('activerecord.attributes.mining_type.acronym') %>:</strong>
+  <%= @mining_type.acronym %>
+</p>
+
+</br>
+</br>
+
+<%= link_to t('links.edit'), edit_mining_type_path(@mining_type), type:"button", class:"btn btn-dark" %> |
+<%= link_to t('links.back'), mining_types_path, type:"button", class:"btn btn-dark" %>
